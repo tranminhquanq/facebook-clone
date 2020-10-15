@@ -90,7 +90,7 @@ class __StoryCard extends StatelessWidget {
                 : ProfileAvatar(
                     imageUrl: story.user.imageUrl,
                     hasBorder: !story.isViewed,
-                  ))
+                  )),
       ],
     );
   }
