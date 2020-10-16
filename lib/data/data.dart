@@ -3,9 +3,9 @@ import 'package:facebook_clone/models/story_model.dart';
 import 'package:facebook_clone/models/user_model.dart';
 
 final User currentUser = User(
-  name: 'Marcus Ng',
+  name: 'Trần Minh Quang',
   imageUrl:
-      'https://images.unsplash.com/photo-1578133671540-edad0b3d689e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80',
+      'https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.0-9/119215578_1045390512563498_4118415809522670724_n.jpg?_nc_cat=109&_nc_sid=09cbfe&_nc_ohc=ixTx6kATU_MAX83fCC3&_nc_ht=scontent.fsgn2-4.fna&oh=13d7f4c6e19c043e43f34b7fefa79935&oe=5FAE78EA',
 );
 
 final List<User> onlineUsers = [
@@ -169,9 +169,10 @@ final List<Story> stories = [
 final List<Post> posts = [
   Post(
     user: currentUser,
-    caption: 'Check out these cool puppers',
+    caption: 'Alo alo còn ai thức không?',
     timeAgo: '58m',
-    imageUrl: 'https://images.unsplash.com/photo-1525253086316-d0c936c814f8',
+    imageUrl:
+        'https://scontent.fsgn2-3.fna.fbcdn.net/v/t1.0-9/73415972_150451482979086_3559090216801140736_o.jpg?_nc_cat=108&_nc_sid=8bfeb9&_nc_ohc=V5Y0vQ6xHg4AX9ZFfc-&_nc_ht=scontent.fsgn2-3.fna&oh=668a587c29dc9f4af03ea4e418bebd08&oe=5FAEDC04',
     likes: 1202,
     comments: 184,
     shares: 96,
